@@ -1,0 +1,35 @@
+{
+  "manifest_version": 2,
+  "name": "Teleport to Wayback Machine",
+  "author": "Jasmine",
+  "version": "0.1.0",
+
+  "description": "Opens a new tab to the Wayback Machine — useful for broken links!",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "64": "icons/icon-64.png",
+    "96": "icons/icon-96.png",
+    "128": "icons/icon-128.png"
+  },
+
+  "background": {
+    "scripts": ["archive.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "64": "icons/icon-64.png",
+      "128": "icons/icon-128.png"
+    },
+    "default_title": "Teleport to Wayback Machine"
+  }
+}
