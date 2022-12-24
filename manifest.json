@@ -15,7 +15,7 @@
   },
 
   "background": {
-    "scripts": ["archive.js"],
+    "scripts": ["teleport.js"],
     "persistent": false
   },
 
