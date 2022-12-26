@@ -1,5 +1,5 @@
 # Teleport To Wayback Machine
-An extention available for Firefox and Opera Beta/Developer.
+An extention available for Firefox and Opera Next and Opera Developer.
 
 Opens a new tab to the Wayback Machine for the site you're on — useful for broken links!
 
